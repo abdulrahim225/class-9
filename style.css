@@ -1,0 +1,66 @@
+.section-1{
+    background-color: red; width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.section-2{
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.web{
+    text-align: center;
+}
+.section-1 h2{
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+} 
+.section-1 p{
+    color: brown;
+    background-color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.section-1 > a{
+    text-decoration:underline;
+    font-style: italic;
+    font-weight: bold;
+}
+.section-3{
+    background-color:aqua;
+    
+}
+.section-3 h3:first-child{
+    color: black;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-3 h3:nth-child(5){
+    color: rebeccapurple;
+    font-style: italic;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-3  h3:nth-child(odd){
+    color: rebeccapurple;
+    font-style: italic;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-3 h3:nth-child(even){
+    color: rebeccapurple;
+    font-style: italic;
+    font-size: 39px;
+    font-weight: bold;
+    text-align: center;
+}
